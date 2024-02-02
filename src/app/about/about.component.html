@@ -1,0 +1,17 @@
+
+
+<h1>about </h1>
+
+<div class="icons text-center my-3">
+    <i class="fa-brands fa-facebook  text-danger fs-2"></i>
+    <i class="fa-brands fa-twitter mx-2 fs-2"></i>
+    <i class="fa-solid fa-globe text-primary fs-2"></i>
+  </div>
+<div class="body-data container row py-3 bg-dark">
+  <div *ngFor="let product of data" class="ag-courses_item col-md-3 text-dark text-white gy-3 gx-2 mx-1 bg-danger">
+    <h4>name : {{ product.title }}</h4>
+    <h4> description : {{ product.des }}</h4>
+    <h4>price : {{ product.price }}</h4>
+
+  </div>
+</div>
